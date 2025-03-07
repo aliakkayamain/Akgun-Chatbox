@@ -44,10 +44,6 @@ Windows kullanıcıları Ollama’yı aşağıdaki adımlarla yükleyebilir:
 
 2. **İndirilen `.msi` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
 
-3. **Kurulum tamamlandıktan sonra Ollama’nın yüklendiğini doğrulamak için şu komutu çalıştırın:**
-    ```powershell
-    ollama --version
-    ```
 
 Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
 ```bash
