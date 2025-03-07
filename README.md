@@ -105,7 +105,7 @@ Varsayılan olarak sunucu http://127.0.0.1:5000 adresinde çalışacaktır.
 
 ### 📌 Sohbet API’si (POST /chat)
 
-📌 Postman ile Test
+Postman ile Test
 Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON formatında istek atabilirsiniz:
 
 🔹 **İstek (JSON Gönderimi)**  
