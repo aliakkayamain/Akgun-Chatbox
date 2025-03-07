@@ -1,4 +1,6 @@
-# LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM - ALİ AKKAYA GÖREV
+<h1 align="center">LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM</h1>
+
+---
 
 Bu proje, [LLaMa 3.1](https://ollama.com/library/llama3.1:8b) modelinin en düşük kaynak gereksinimine sahip sürümünü kullanarak basit bir sohbet (chat) servisi sunmayı amaçlar. Flask tabanlı bir REST API üzerinden Postman gibi araçlarla mesaj gönderip model yanıtı alabilirsiniz.
 
