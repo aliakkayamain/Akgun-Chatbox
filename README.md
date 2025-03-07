@@ -31,7 +31,7 @@ LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeni
 📌 macOS (Homebrew ile)
 ```bash
 brew install ollama
-
+```
 📌 Linux (Debian / Ubuntu)
 curl -fsSL https://ollama.com/install.sh | sh
 
