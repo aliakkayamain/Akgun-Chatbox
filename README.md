@@ -34,47 +34,47 @@ Bu proje, [LLaMa 3.1](https://ollama.com/library/llama3.1:8b) modelinin en düş
 ## 1️⃣ Ollama ve LLaMa 3.1 Modelini Kurun
 LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
 
-    📌 macOS (Homebrew ile)
-    ```bash
-    brew install ollama
-    ```
-    📌 Linux (Debian / Ubuntu)
-    ```bash
-    curl -fsSL https://ollama.com/install.sh | sh
-    ```
-    📌 Windows (Manuel Kurulum)
-    Windows kullanıcıları Ollama’yı aşağıdaki adımlarla yükleyebilir:
+📌 macOS (Homebrew ile)
+```bash
+brew install ollama
+```
+📌 Linux (Debian / Ubuntu)
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+📌 Windows (Manuel Kurulum)
+Windows kullanıcıları Ollama’yı aşağıdaki adımlarla yükleyebilir:
 
-    1. **Ollama’nın resmi yükleyicisini indirin:**  
-    🔗 [Ollama Windows Yükleyicisi](https://ollama.com/download/windows)
+1. **Ollama’nın resmi yükleyicisini indirin:**  
+   🔗 [Ollama Windows Yükleyicisi](https://ollama.com/download/windows)
 
-    2. **İndirilen `.exe` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
+2. **İndirilen `.exe` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
 
 
-    Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
-    ```bash
-    ollama --version
-    ```
-    Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
-    ```bash
-    ollama 0.1.20
-    ```
+Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
+```bash
+ollama --version
+```
+Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
+```bash
+ollama 0.1.20
+```
 
 ## 2️⃣ LLaMa 3.1 Modelini İndirin
-    Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
-    ```bash
-    ollama pull llama3.1:8b
-    ```
-    Model başarıyla indirildiğinde, aşağıdaki komut ile yüklü modelleri listeleyebilirsiniz:
-    ```bash
-    ollama list
-    ```
-    Çıktı şu şekilde olmalıdır:
-    | NAME      | ID             | SIZE  | MODIFIED    |
-    |-----------|---------------|-------|------------|
-    | llama3.1:8b | 46e0c10c039e | 4.9 GB | .. minutes ago |
+Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
+```bash
+ollama pull llama3.1:8b
+```
+Model başarıyla indirildiğinde, aşağıdaki komut ile yüklü modelleri listeleyebilirsiniz:
+```bash
+ollama list
+```
+Çıktı şu şekilde olmalıdır:
+| NAME      | ID             | SIZE  | MODIFIED    |
+|-----------|---------------|-------|------------|
+| llama3.1:8b | 46e0c10c039e | 4.9 GB | .. minutes ago |
 
-    Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu gösterir.
+Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu gösterir.
 
 
 ## 3️⃣ Projeyi Klonlayın ve Çalıştırın
