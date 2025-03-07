@@ -25,10 +25,10 @@ Bu proje, [LLaMa 3.1](https://ollama.com/library/llama3.1:8b) modelinin en düş
 
 # 🚀 Kurulum & Çalıştırma
 
-## **1️⃣ Ollama ve LLaMa 3.1 Modelini Kurun**
+## 1️⃣ Ollama ve LLaMa 3.1 Modelini Kurun
 LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
 
-### 📌 **macOS (Homebrew ile)**
+📌 macOS (Homebrew ile)
 ```bash
 brew install ollama
 
