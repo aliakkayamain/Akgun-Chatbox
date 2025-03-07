@@ -1,4 +1,8 @@
-<h1 align="center">LLaMa 3.1 Chatbox Servisi - AKGÜN Yazılım</h1>
+<h1 align="center">
+  <img src="docs/images/akgunicon.png" width="80">  
+  <br>
+  LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM - ALİ AKKAYA GÖREV
+</h1>
 
 ---
 
