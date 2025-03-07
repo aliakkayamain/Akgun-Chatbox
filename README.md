@@ -79,13 +79,13 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
 
 ## 3️⃣ Projeyi Klonlayın ve Çalıştırın
 1. **Projeyi Klonlayın**
-```bash
-git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
-```
-**Şimdi projenin içine girin:**
-```bash
-cd Akgun-Chatbot
-```
+    ```bash
+    git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
+    ```
+    Şimdi projenin içine girin:
+    ```bash
+    cd Akgun-Chatbot
+    ```
 
 2. **Sanal Ortam Oluşturun ve Aktif Edin**
 ```bash
