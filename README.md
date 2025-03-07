@@ -49,16 +49,20 @@ Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
 ```bash
 ollama 0.1.20
 ```
+
 ## 2️⃣ LLaMa 3.1 Modelini İndirin
 Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
+```bash
 ollama pull llama3.1:8b
-
+```
 Model başarıyla indirildiğinde, aşağıdaki komut ile yüklü modelleri listeleyebilirsiniz:
+```bash
 ollama list
-
+```
 Çıktı şu şekilde olmalıdır:
-NAME               ID              SIZE      MODIFIED      
-llama3.1:8b        46e0c10c039e    4.9 GB    9 minutes ago
+| NAME      | ID             | SIZE  | MODIFIED    |
+|-----------|---------------|-------|------------|
+| llama3.1:8b | 46e0c10c039e | 4.9 GB | 9 minutes ago |
 
 Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu gösterir.
 
