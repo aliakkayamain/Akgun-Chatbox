@@ -152,3 +152,20 @@ AKGUN-CHATBOX/
 ├── requirements.txt     # Proje bağımlılıklarının listesi (Flask vb.)
 └── venv/                # Python sanal ortam (virtual environment) klasörü
 ```
+
+
+
+## 📌 Hakkında
+
+Bu proje **Ali Akkaya** tarafından **Akgün Yazılım** için geliştirilmiştir.  
+LLaMa 3.1 modeli kullanılarak oluşturulan bu sohbet botu, Flask tabanlı bir REST API ile entegre edilmiştir ve yerel olarak çalıştırılabilir.
+
+💡 **Proje Amacı:**  
+Bu proje, yapay zeka modelleriyle temel düzeyde çalışma ve API entegrasyonu becerilerini geliştirmek amacıyla hazırlanmıştır.
+
+---
+
+## 📬 İletişim  
+
+📩 **Geliştirici:** Ali Akkaya  
+📧 **E-posta:** [aliakkayamain@gmail.com](mailto:aliakkayamain@gmail.com)  
