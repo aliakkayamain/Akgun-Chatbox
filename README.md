@@ -45,7 +45,7 @@ ollama --version
 Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
 ollama 0.1.20
 
-## **2️⃣ LLaMa 3.1 Modelini İndirin**
+## 2️⃣ LLaMa 3.1 Modelini İndirin
 Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
 ollama pull llama3.1:8b
 
@@ -59,7 +59,7 @@ llama3.1:8b        46e0c10c039e    4.9 GB    9 minutes ago
 Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu gösterir.
 
 
-3️⃣ Projeyi Klonlayın Çalıştırın
+## 3️⃣ Projeyi Klonlayın Çalıştırın
     1.Projeyi Klonlayın
     git clone https://github.com/KullaniciAdiniz/llama-chatbox.git
     cd akgun-chatbot
