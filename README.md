@@ -62,30 +62,44 @@ ollama list
 Çıktı şu şekilde olmalıdır:
 | NAME      | ID             | SIZE  | MODIFIED    |
 |-----------|---------------|-------|------------|
-| llama3.1:8b | 46e0c10c039e | 4.9 GB | 9 minutes ago |
+| llama3.1:8b | 46e0c10c039e | 4.9 GB | .. minutes ago |
 
 Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu gösterir.
 
 
-## 3️⃣ Projeyi Klonlayın Çalıştırın
+## 3️⃣ Projeyi Klonlayın ve Çalıştırın
     1.Projeyi Klonlayın
-    git clone https://github.com/KullaniciAdiniz/llama-chatbox.git
+    ```bash
+    git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
+    ```
+    Şimdi projenin içine girin:
+    ```bash
     cd akgun-chatbot
+    ```
 
 
     2.Sanal Ortam Oluşturun ve Aktif Edin
+    ```bash
     python3.11 -m venv venv
+    ```
     # Windows için
+    ```bash
     venv\Scripts\activate
+    ```
     # macOS/Linux için
+    ```bash
     source venv/bin/activate
+    ```
 
     3.Gerekli Kütüphaneleri Yükleyin
+    ```bash
     pip install -r requirements.txt
+    ```bash
 
     4.API'yi Başlatın
+    ```bash
     python app.py
-
+    ```
     Varsayılan olarak sunucu http://127.0.0.1:5000 adresinde çalışacaktır.
 
 
