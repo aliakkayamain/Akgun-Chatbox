@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="docs/images/akgunicon.png" width="80">  
   <br>
-  LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM - ALİ AKKAYA GÖREV
+  LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM
 </h1>
 
 ---
