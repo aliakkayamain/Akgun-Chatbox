@@ -1,4 +1,4 @@
-# LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM - ALİ AKKAYA CASE 
+# LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM - ALİ AKKAYA GÖREV
 
 Bu proje, [LLaMa 3.1](https://ollama.com/library/llama3.1:8b) modelinin en düşük kaynak gereksinimine sahip sürümünü kullanarak basit bir sohbet (chat) servisi sunmayı amaçlar. Flask tabanlı bir REST API üzerinden Postman gibi araçlarla mesaj gönderip model yanıtı alabilirsiniz.
 
@@ -126,17 +126,12 @@ Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON format�
     "message": "Hello, how are you?"
 }
 ```
-Bir örnek olarak Postman veya cURL ile aşağıdaki şekilde istekte bulunabilirsiniz:
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d '{"message":"Hello, how are you?"}' \
-  http://127.0.0.1:5000/chat
 
 
 ## 📷 API Test Görüntüsü
 ![Postman Testi](docs/images/screen_shot2.png)
 
-📂 Proje Yapısı
+## 📂 Proje Yapısı
 
 AKGUN-CHATBOX/
 ├─ __pycache__/           # Python tarafından derlenen bytecode dosyaları
