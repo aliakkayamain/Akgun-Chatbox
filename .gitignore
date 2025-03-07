@@ -1,0 +1,15 @@
+# Python bytecode dosyaları ve önbellek
+__pycache__/
+
+# Sanal ortam klasörü
+venv/
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Log dosyaları
+*.log
