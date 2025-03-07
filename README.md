@@ -45,7 +45,7 @@ ollama --version
 Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
 ollama 0.1.20
 
-2️⃣ LLaMa 3.1 Modelini İndirin
+## **2️⃣ LLaMa 3.1 Modelini İndirin**
 Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
 ollama pull llama3.1:8b
 
@@ -110,7 +110,7 @@ curl -X POST \
 
 
 ## 📷 API Test Görüntüsü
-![Postman Testi](docs/images/postman_test.png)
+![Postman Testi](docs/images/screen_shot1.png)
 
 📂 Proje Yapısı
 
