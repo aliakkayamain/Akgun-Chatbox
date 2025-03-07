@@ -1,4 +1,4 @@
-<h1 align="center">LLaMa 3.1 Chatbox Servisi - AKGÜN YAZILIM</h1>
+<h1 align="center">LLaMa 3.1 Chatbox Servisi - AKGÜN Yazılım</h1>
 
 ---
 
