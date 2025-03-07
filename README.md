@@ -113,7 +113,7 @@ Varsayılan olarak sunucu http://127.0.0.1:5000 adresinde çalışacaktır.
 
 ---
 
-## 💬 API Kullanımı
+# 💬 API Kullanımı
 
 ### 📌 Sohbet API’si (POST /chat)
 
@@ -136,12 +136,12 @@ Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON format�
 
 ---
 
-## 📷 API Test Görüntüsü
+# 📷 API Test Görüntüsü
 ![Postman Testi](docs/images/screen_shot2.png)
 
 ---
 
-## 📂 Proje Yapısı
+# 📂 Proje Yapısı
 ```
 AKGUN-CHATBOX/
 │
@@ -165,7 +165,7 @@ AKGUN-CHATBOX/
 
 ---
 
-## 📌 Hakkında
+# 📌 Hakkında
 
 Bu proje **Ali Akkaya** tarafından **Akgün Yazılım** için geliştirilmiştir.  
 LLaMa 3.1 modeli kullanılarak oluşturulan bu sohbet botu, Flask tabanlı bir REST API ile entegre edilmiştir ve yerel olarak çalıştırılabilir.
