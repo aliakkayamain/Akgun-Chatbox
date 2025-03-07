@@ -131,19 +131,23 @@ Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON format�
 ## 📷 API Test Görüntüsü
 ![Postman Testi](docs/images/screen_shot2.png)
 
-### 📂 **Proje Yapısı**
+### 📂 Proje Yapısı
 
 AKGUN-CHATBOX/
-├─ __pycache__/           # Python tarafından derlenen bytecode dosyaları
-├─ docs/
-│  └─ images/            # Ekran görüntüleri veya dökümanlar için ayrılmış klasör
-├─ routes/
-│  ├─ __pycache__/       # Python tarafından derlenen bytecode dosyaları
-│  ├─ chat.py            # /chat endpoint'ini tanımlayan kodlar
-│  └─ index.py           # root (/) endpoint'ini tanımlayan kodlar
-├─ .gitignore            # Git'e dahil edilmemesi gereken dosyaları belirleyen ayarlar
-├─ app.py                # Flask uygulamasının ana giriş noktası ve blueprint kayıtları
-├─ config.py             # Konfigürasyon ayarları (örn. DEBUG, PORT vb.)
-├─ README.md             # Proje dokümantasyonu
-├─ requirements.txt      # Proje bağımlılıklarının listesi (Flask vb.)
-└─ venv/                 # Python sanal ortam (virtual environment) klasörü
+│
+├── __pycache__/         # Python tarafından derlenen bytecode dosyaları
+│
+├── docs/                # Dökümanlar ve ekran görüntüleri için ayrılmış klasör
+│   └── images/          # Proje ile ilgili ekran görüntüleri
+│
+├── routes/              # API endpoint'lerini içeren klasör
+│   ├── __pycache__/     # Python tarafından derlenen bytecode dosyaları
+│   ├── chat.py          # "/chat" endpoint'ini tanımlayan kodlar
+│   └── index.py         # "/" (root) endpoint'ini tanımlayan kodlar
+│
+├── .gitignore           # Git'e dahil edilmemesi gereken dosyaları belirleyen ayarlar
+├── app.py               # Flask uygulamasının ana giriş noktası ve blueprint kayıtları
+├── config.py            # Konfigürasyon ayarları (örn. DEBUG, PORT vb.)
+├── README.md            # Proje dokümantasyonu
+├── requirements.txt     # Proje bağımlılıklarının listesi (Flask vb.)
+└── venv/                # Python sanal ortam (virtual environment) klasörü
