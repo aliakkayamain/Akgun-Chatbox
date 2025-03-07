@@ -72,18 +72,18 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
 
 
 ## 3️⃣ Projeyi Klonlayın ve Çalıştırın
-1.Projeyi Klonlayın 
+1. Projeyi Klonlayın 
 ```bash
 git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
 ```
 Şimdi projenin içine girin:
 ```bash
-cd akgun-chatbot
+cd Akgun-Chatbot
 ```
 
-2.Sanal Ortam Oluşturun ve Aktif Edin
+2. Sanal Ortam Oluşturun ve Aktif Edin
 ```bash
-python3.11 -m venv venv
+python -m venv venv
 ```
 📌 Windows için
 ```bash
@@ -94,12 +94,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3.Gerekli Kütüphaneleri Yükleyin
+3. Gerekli Kütüphaneleri Yükleyin
 ```bash
 pip install -r requirements.txt
 ```
 
-4.API'yi Başlatın
+4. API'yi Başlatın
 ```bash
 python app.py
 ```
