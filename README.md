@@ -33,18 +33,22 @@ LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeni
 brew install ollama
 ```
 📌 Linux (Debian / Ubuntu)
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
+```
 📌 Windows (PowerShell ile)
 Windows için .msi yükleyicisini buradan indirip kurabilirsiniz:
+```bash
 https://ollama.com/download/windows
-
+```
 Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
+```bash
 ollama --version
-
+```
 Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
+```bash
 ollama 0.1.20
-
+```
 ## 2️⃣ LLaMa 3.1 Modelini İndirin
 Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
 ollama pull llama3.1:8b
