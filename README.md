@@ -88,27 +88,27 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
     ```
 
 2. **Sanal Ortam Oluşturun ve Aktif Edin**
-```bash
-python -m venv venv
-```
-📌 Windows için
-```bash
-venv\Scripts\activate
-```
-📌 macOS/Linux için
-```bash
-source venv/bin/activate
-```
+    ```bash
+    python -m venv venv
+    ```
+    📌 Windows için
+    ```bash
+    venv\Scripts\activate
+    ```
+    📌 macOS/Linux için
+    ```bash
+    source venv/bin/activate
+    ```
 
 3. **Gerekli Kütüphaneleri Yükleyin**
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **API'yi Başlatın**
-```bash
-python app.py
-```
+    ```bash
+    python app.py
+    ```
 Varsayılan olarak sunucu http://127.0.0.1:5000 adresinde çalışacaktır.
 
 ---
