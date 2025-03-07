@@ -80,11 +80,11 @@ cd akgun-chatbot
 ```bash
 python3.11 -m venv venv
 ```
-# Windows için
+📌 Windows için
 ```bash
 venv\Scripts\activate
 ```
-# macOS/Linux için
+📌 macOS/Linux için
 ```bash
 source venv/bin/activate
 ```
@@ -92,7 +92,7 @@ source venv/bin/activate
 3.Gerekli Kütüphaneleri Yükleyin
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 4.API'yi Başlatın
 ```bash
