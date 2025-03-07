@@ -82,7 +82,7 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
 ```bash
 git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
 ```
-Şimdi projenin içine girin:
+**Şimdi projenin içine girin:**
 ```bash
 cd Akgun-Chatbot
 ```
