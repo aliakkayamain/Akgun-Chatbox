@@ -48,7 +48,7 @@ Windows kullanıcıları Ollama’yı aşağıdaki adımlarla yükleyebilir:
 1. **Ollama’nın resmi yükleyicisini indirin:**  
    🔗 [Ollama Windows Yükleyicisi](https://ollama.com/download/windows)
 
-2. **İndirilen `.msi` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
+2. **İndirilen `.exe` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
 
 
 Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
