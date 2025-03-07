@@ -123,27 +123,27 @@ API'ye **JSON formatında bir POST isteği** göndererek yanıt alabilirsiniz.
 Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON formatında istek atabilirsiniz:
 
 #### **📌 Adımlar:**
-1. **Postman’i açın** ve yeni bir **POST isteği** oluşturun.
-2. **URL kısmına** şu adresi girin:
-```
-http://127.0.0.1:5000/chat
-```
+    1. **Postman’i açın** ve yeni bir **POST isteği** oluşturun.
+    2. **URL kısmına** şu adresi girin:
+    ```
+    http://127.0.0.1:5000/chat
+    ```
 
-3. **Body sekmesine gidin** ve aşağıdaki JSON formatındaki veriyi ekleyin:
-```json
-{
-    "message": "Merhaba, nasılsın?"
-}
-```
-4.	**Send (Gönder) butonuna tıklayın** ve API’den dönen yanıtı kontrol edin.
+    3. **Body sekmesine gidin** ve aşağıdaki JSON formatındaki veriyi ekleyin:
+    ```json
+    {
+        "message": "Merhaba, nasılsın?"
+    }
+    ```
+    4.	**Send (Gönder) butonuna tıklayın** ve API’den dönen yanıtı kontrol edin.
 
 
-🔹 **İstek (JSON Gönderimi)**  
-```json
-{
-    "message": "Merhaba, nasılsın?"
-}
-```
+    🔹 **İstek (JSON Gönderimi)**  
+    ```json
+    {
+        "message": "Merhaba, nasılsın?"
+    }
+    ```
 
 🔹 **Yanıt (JSON Döndürülen Cevap)**
 ```json
