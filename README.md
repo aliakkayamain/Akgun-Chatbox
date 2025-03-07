@@ -131,8 +131,8 @@ Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON format�
 ## 📷 API Test Görüntüsü
 ![Postman Testi](docs/images/screen_shot2.png)
 
-### 📂 Proje Yapısı
-
+## 📂 Proje Yapısı
+```
 AKGUN-CHATBOX/
 │
 ├── __pycache__/         # Python tarafından derlenen bytecode dosyaları
@@ -151,3 +151,4 @@ AKGUN-CHATBOX/
 ├── README.md            # Proje dokümantasyonu
 ├── requirements.txt     # Proje bağımlılıklarının listesi (Flask vb.)
 └── venv/                # Python sanal ortam (virtual environment) klasörü
+```
