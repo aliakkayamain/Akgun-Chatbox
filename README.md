@@ -36,11 +36,16 @@ brew install ollama
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-📌 Windows (PowerShell ile)
-Windows için .msi yükleyicisini buradan indirip kurabilirsiniz:
-```bash
-iwr https://ollama.com/install.ps1 -useb | iex
-```
+📌 Windows (Manuel Kurulum)
+Windows kullanıcıları Ollama’yı aşağıdaki adımlarla yükleyebilir:
+
+1. **Ollama’nın resmi yükleyicisini indirin:**  
+   🔗 [Ollama Windows Yükleyicisi](https://ollama.com/download/windows)
+
+2. **İndirilen `.msi` dosyasını çalıştırın ve yükleme adımlarını tamamlayın.**
+
+3. **Kurulum tamamlandıktan sonra Ollama’nın yüklendiğini doğrulamak için şu komutu çalıştırın:**
+
 Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
 ```bash
 ollama --version
