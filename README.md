@@ -122,7 +122,7 @@ API'ye **JSON formatında bir POST isteği** göndererek yanıt alabilirsiniz.
 
 Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON formatında istek atabilirsiniz:
 
-#### **📌 Adımlar:**
+### **📌 Adımlar:**
 1. **Postman’i açın** ve yeni bir **POST isteği** oluşturun.
 2. **URL kısmına** şu adresi girin:
 ```
@@ -137,7 +137,7 @@ http://127.0.0.1:5000/chat
 ```
 4.	**Send (Gönder) butonuna tıklayın** ve API’den dönen yanıtı kontrol edin.
 
-
+### Özet:
 🔹 **İstek (JSON Gönderimi)**  
 ```json
 {
