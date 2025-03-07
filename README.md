@@ -39,7 +39,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 📌 Windows (PowerShell ile)
 Windows için .msi yükleyicisini buradan indirip kurabilirsiniz:
 ```bash
-https://ollama.com/download/windows
+iwr https://ollama.com/install.ps1 -useb | iex
 ```
 Kurulum tamamlandıktan sonra terminali kapatıp yeniden açın ve aşağıdaki komut ile Ollama'nın başarıyla yüklendiğini doğrulayın:
 ```bash
