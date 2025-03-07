@@ -110,7 +110,7 @@ curl -X POST \
 
 
 ## 📷 API Test Görüntüsü
-![Postman Testi](docs/images/screen_shot1.png)
+![Postman Testi](docs/images/screen_shot2.png)
 
 📂 Proje Yapısı
 
