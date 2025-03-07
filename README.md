@@ -68,6 +68,7 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
 
 
 ## 3️⃣ Projeyi Klonlayın ve Çalıştırın
+1.Projeyi Klonlayın 
 ```bash
 git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
 ```
