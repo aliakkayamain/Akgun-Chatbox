@@ -101,27 +101,31 @@ python app.py
 Varsayılan olarak sunucu http://127.0.0.1:5000 adresinde çalışacaktır.
 
 
-💬 API Kullanımı
+## 💬 API Kullanımı
 
-📌 Sohbet API’si (POST /chat)
+### 📌 Sohbet API’si (POST /chat)
 
-🔹 İstek (JSON Gönderimi)
+🔹 **İstek (JSON Gönderimi)**  
+```json
 {
     "message": "Merhaba, nasılsın?"
 }
+```
 
-
-🔹 Yanıt (JSON Döndürülen Cevap)
+🔹 **Yanıt (JSON Döndürülen Cevap)**
+```json
 {
     "response": "Merhaba! Ben iyiyim, size nasıl yardımcı olabilirim?"
 }
+```
 
 📌 Postman ile Test
 Postman kullanarak http://127.0.0.1:5000/chat adresine aşağıdaki JSON formatında istek atabilirsiniz:
+```json
 {
     "message": "Hello, how are you?"
 }
-
+```
 Bir örnek olarak Postman veya cURL ile aşağıdaki şekilde istekte bulunabilirsiniz:
 curl -X POST \
   -H "Content-Type: application/json" \
